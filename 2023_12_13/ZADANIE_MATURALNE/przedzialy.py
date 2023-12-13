@@ -18,21 +18,30 @@ with open("przedzialy.txt", "r") as fl:
 # print(dane_prz1)
 
 lista_przedzialow = []
+lista_odd = []
 for element in dane_prz1:
     e1, e2 = element.strip().split(",")
     lista = parsuj(e1,e2)
+    ile_odd = len([ x for x in lista if odd(x) == 1 ])
+    # ile_odd = len([x for x in lista if x % 2 == 1])
     lista_przedzialow.append(lista)
+    lista_odd.append(ile_odd)
 
 # print(lista_przedzialow)
 
-max_odd = 0
-max_line = 0
-for idx, value in enumerate(lista_przedzialow):
-    max_odd_l = len([ x for x in value if odd(x) == 1 ])
-    print(f"{idx=} {max_odd_l=} {value=}")
-    if max_odd_l > max_odd:
-        max_odd = max_odd_l
-        max_line = idx + 1
+max_odd = max(lista_odd)
+print(f"{max_odd=}")
+max_line = []
 
-print(f"Najwięcej liczb nieparzystych {max_odd} w wierszu {max_line} = {lista_przedzialow[max_line -1]}")
+for idx, value in enumerate(lista_odd):
+    if value == max_odd:
+        # print(f"{idx=} {value=}")
+        max_line.append(str(idx+1))
+
+lines = " ".join(max_line)
+print(f"Najwięcej liczb nieparzystych {max_odd} w wierszach {lines}")
+
+with open("wyniki1.txt", "a") as out:
+    out.write(f"{max_odd} \n")
+    out.write(f"{lines} \n")
 
