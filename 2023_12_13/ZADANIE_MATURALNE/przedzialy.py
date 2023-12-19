@@ -5,12 +5,14 @@ def parsuj(od, do):
         b += 1
     if d == ">":
         c += 1
-    return [ x for x in range(b,c)]
+    return [x for x in range(b, c)]
+
 
 def odd(number):
     if number % 2 == 1:
         return True
     return False
+
 
 with open("przedzialy.txt", "r") as fl:
     dane_prz1 = fl.readlines()
