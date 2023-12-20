@@ -1,0 +1,61 @@
+    792 function calls in 0.001 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.001    0.001 {built-in method builtins.exec}
+        1    0.000    0.000    0.001    0.001 przedzial_marceli.py:1(<module>)
+       50    0.000    0.000    0.000    0.000 przedzial_marceli.py:43(<listcomp>)
+       51    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+       50    0.000    0.000    0.000    0.000 przedzial_marceli.py:1(parsuj)
+      362    0.000    0.000    0.000    0.000 przedzial_marceli.py:10(czypierwsza)
+        2    0.000    0.000    0.000    0.000 {built-in method io.open}
+       50    0.000    0.000    0.000    0.000 przedzial_marceli.py:8(<listcomp>)
+        2    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+        1    0.000    0.000    0.000    0.000 {method 'readlines' of '_io._IOBase' objects}
+       50    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+       57    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+       50    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 <frozen codecs>:319(decode)
+       50    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 <frozen codecs>:309(__init__)
+        3    0.000    0.000    0.000    0.000 {built-in method _codecs.utf_8_decode}
+        1    0.000    0.000    0.000    0.000 <frozen codecs>:260(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen codecs>:186(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        2    0.000    0.000    0.000    0.000 {method 'clear' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+        1    0.000    0.000    0.000    0.000 <frozen codecs>:214(setstate)
+
+===========================
+Wersja z sitem:
+
+460 function calls in 0.002 seconds
+
+Ordered by: cumulative time
+
+ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+    1    0.000    0.000    0.002    0.002 {built-in method builtins.exec}
+    1    0.000    0.000    0.002    0.002 przedzial_adam.py:1(<module>)
+   50    0.001    0.000    0.001    0.000 przedzial_adam.py:59(<listcomp>)
+   51    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+   50    0.000    0.000    0.000    0.000 przedzial_adam.py:16(parsuj)
+    2    0.000    0.000    0.000    0.000 {built-in method io.open}
+    2    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+   50    0.000    0.000    0.000    0.000 przedzial_adam.py:23(<listcomp>)
+    1    0.000    0.000    0.000    0.000 {method 'readlines' of '_io._IOBase' objects}
+    1    0.000    0.000    0.000    0.000 przedzial_adam.py:1(sito_eratostenesa_for)
+   50    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+   86    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+   50    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+    3    0.000    0.000    0.000    0.000 <frozen codecs>:319(decode)
+   50    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+    1    0.000    0.000    0.000    0.000 <frozen codecs>:309(__init__)
+    3    0.000    0.000    0.000    0.000 {built-in method _codecs.utf_8_decode}
+    1    0.000    0.000    0.000    0.000 <frozen codecs>:186(__init__)
+    2    0.000    0.000    0.000    0.000 {method 'clear' of 'list' objects}
+    2    0.000    0.000    0.000    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+    1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+    1    0.000    0.000    0.000    0.000 <frozen codecs>:260(__init__)
+    1    0.000    0.000    0.000    0.000 <frozen codecs>:214(setstate)
+
