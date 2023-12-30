@@ -1,3 +1,6 @@
+import dumper
+
+
 def parsuj(od, do):
     a, b = od[0], int(od[1:])
     c, d = int(do[:-1]), do[-1]
@@ -29,7 +32,7 @@ for element in dane_prz1:
     lista_przedzialow.append(lista)
     lista_odd.append(ile_odd)
 
-# print(lista_przedzialow)
+print(dumper.dumps(lista_przedzialow))
 
 max_odd = max(lista_odd)
 print(f"{max_odd=}")
@@ -41,7 +44,7 @@ for idx, value in enumerate(lista_odd):
         max_line.append(str(idx+1))
 
 lines = " ".join(max_line)
-print(f"Najwięcej liczb nieparzystych {max_odd} w wierszach {lines}")
+# print(f"Najwięcej liczb nieparzystych {max_odd} w wierszach {lines}")
 
 with open("wyniki1.txt", "a") as out:
     out.write(f"{max_odd} \n")
