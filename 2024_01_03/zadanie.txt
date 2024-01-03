@@ -1,0 +1,4 @@
+* utworz słownik zawierający książkę telefoniczną
+* kluczem ma być nr telefonu
+* wartością lista zawierająca imie i nazwisko oraz adres
+* pętla wypisująca ładnie znajomy xxxx mieszka przy ul i ma nr telefonu...
