@@ -2,3 +2,9 @@
 * kluczem ma być nr telefonu
 * wartością lista zawierająca imie i nazwisko oraz adres
 * pętla wypisująca ładnie znajomy xxxx mieszka przy ul i ma nr telefonu...
+
+{
+ 662144425: ["Adam Jurkiewicz", "Kaden-Bandrowskiego", "Warszawa"]
+ "+48 662.144.425": ["Adam Jurkiewicz", "Kaden-Bandrowskiego", "Warszawa"]
+}
+* kod wynikowy proszę przez pastebin.com przenieść i link do discorda

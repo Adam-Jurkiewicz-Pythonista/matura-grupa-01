@@ -56,7 +56,7 @@ liczby_pierwsze = sito_eratostenesa_for(110)
 max_odd = 0
 max_line = []
 for idx, value in enumerate(lista_przedzialow):
-    max_odd_l = len([ x for x in value if x in liczby_pierwsze ])
+    max_odd_l = len([x for x in value if x in liczby_pierwsze])
     print(f"{idx=} {max_odd_l=} {value=}")
     if max_odd_l > max_odd:
         max_odd = max_odd_l
