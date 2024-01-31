@@ -1,8 +1,9 @@
-* ile jest firm w ogóle?
-* ile jest firm, których nazwa zaczyna się d litery:
+* ile jest firm w ogóle? - 500
+* ile jest firm, których nazwa zaczyna się od litery:
     * A
     * D
     * E
+
 * na jaką literę zaczyna się najwieksza liczba firm?
 * ile słów ma najdłuższa nazwa firmy (słowa oddzielone znakiem spacji)
 * Jak nazywają się firmy o Rank 1~10 ?
