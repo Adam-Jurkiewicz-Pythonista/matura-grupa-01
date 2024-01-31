@@ -1,6 +1,7 @@
 import csv  # https://docs.python.org/3/library/csv.html
 
 companies = {}
+max_len_name = 0
 
 with open("f500.csv", "r", encoding="UTF-8") as f500:
     csvreader = csv.reader(f500)
@@ -13,6 +14,15 @@ with open("f500.csv", "r", encoding="UTF-8") as f500:
                 companies[letter] = 1
             else:
                 companies[letter] += 1
+
+            # wyszukanie największej ilości słów w nazwie
+            len_name = len(element[0].split())
+            if len_name > max_len_name:
+                max_len_name = len_name
+                max_name = element[0]
+
+    print(f"{max_len_name=} | {max_name=}")
+
         # print(f"{i=} || {element=}")
 
     # print(f"{companies['A']=} {companies['D']=} {companies['E']=}")
