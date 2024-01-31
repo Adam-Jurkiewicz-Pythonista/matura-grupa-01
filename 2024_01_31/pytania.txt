@@ -1,0 +1,12 @@
+* ile jest firm w ogóle?
+* ile jest firm, których nazwa zaczyna się d litery:
+    * A
+    * D
+    * E
+* na jaką literę zaczyna się najwieksza liczba firm?
+* ile słów ma najdłuższa nazwa firmy (słowa oddzielone znakiem spacji)
+* Jak nazywają się firmy o Rank 1~10 ?
+* ile mają wspólnie revenues?
+* która z nich ma największy?
+* czy istnieje inna firma (poza 10), która ma większy revenue?
+* jakie są sektory działalności i ile firm jest w każdym z nich?
