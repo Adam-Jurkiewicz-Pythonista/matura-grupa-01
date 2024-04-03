@@ -10,8 +10,9 @@ Funkcja ma zwrócić czas zapisany jako jedna liczba całkowita w formacie: HHMM
 Przykłady zwracanych wartości dla różnych argumentów:
 
 to_time( 12, 5, 16 ) → 16 05 12
-to_time( 0, 5, 0 ) → 500
-to_time( 3, 0, 0 ) → 03 00 00
+to_time( 0, 15, 0 ) → 15 00
+to_time( 0, 0, 3 ) → 03 00 00
+to_time( 3, 0, 0 ) → 00 00 03
 16 godzin 5 minut 12 sekund
 to_time( 3, 17, 5 ) → 51703
 5 godzin 17 minut 3 sekundy
